@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "agrop-15522-sem-nome-20260908-v1",
+      "slug": "agrop-15522-sem-nome-20260908-v1",
+      "name": "15522",
+      "company": "AGROP",
+      "farm": "15522",
+      "field": "-",
+      "plot": "-",
+      "crop": "CANA",
+      "season": "26-27",
+      "survey_type": "Restituição de linhas",
+      "survey_date": "2026-09-08",
+      "area_ha": 68.7822,
+      "url": "projects/agrop-15522-sem-nome-20260908-v1/"
+    }
+  ],
+  "title": "RC Serviços Agrícolas",
+  "publication_mode": "github_pages"
+}

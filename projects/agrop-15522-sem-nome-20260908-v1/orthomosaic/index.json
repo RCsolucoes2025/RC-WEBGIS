@@ -1,0 +1,54 @@
+{
+  "format": "raster_pmtiles_mosaic",
+  "profile": "balanced",
+  "resolution_m": 0.1,
+  "tiles": [
+    {
+      "file": "ortho_001.pmtiles",
+      "bounds": [
+        -49.13824081,
+        -20.00625794,
+        -49.13274765,
+        -20.00109617
+      ],
+      "size_bytes": 24442558,
+      "node": "root0"
+    },
+    {
+      "file": "ortho_002.pmtiles",
+      "bounds": [
+        -49.13274765,
+        -20.00625794,
+        -49.12725449,
+        -20.00109617
+      ],
+      "size_bytes": 27690577,
+      "node": "root1"
+    },
+    {
+      "file": "ortho_003.pmtiles",
+      "bounds": [
+        -49.13824081,
+        -20.01141953,
+        -49.13274765,
+        -20.00625794
+      ],
+      "size_bytes": 30194684,
+      "node": "root2"
+    },
+    {
+      "file": "ortho_004.pmtiles",
+      "bounds": [
+        -49.13274765,
+        -20.01141953,
+        -49.12725449,
+        -20.00625794
+      ],
+      "size_bytes": 40074507,
+      "node": "root3"
+    }
+  ],
+  "pipeline_version": 2,
+  "tile_format": "WEBP",
+  "transparency": true
+}

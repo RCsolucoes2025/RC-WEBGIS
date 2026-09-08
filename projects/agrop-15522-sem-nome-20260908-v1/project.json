@@ -1,0 +1,116 @@
+{
+  "company": "AGROP",
+  "farm": "15522",
+  "field_code": "-",
+  "crop": "CANA",
+  "season": "26-27",
+  "survey_date": "2026-09-08",
+  "survey_type": "Restituição de linhas",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "agrop-15522-sem-nome-20260908-v1",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "mosaico_390a79e3_ef72_484a_8838_e6b59d592ad9",
+      "name": "mosaico",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic/index.json",
+      "format": "raster_pmtiles_mosaic",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic/ortho_001.pmtiles",
+        "orthomosaic/ortho_002.pmtiles",
+        "orthomosaic/ortho_003.pmtiles",
+        "orthomosaic/ortho_004.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "Nova_camada_de_rascunho_41fcb988_4a75_4ee9_97c2_9b77df4ce87b",
+      "name": "Nova camada de rascunho",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#e41a1c",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "linhas_centrais_2e1bae1c_2432_4032_8d72_f789dbb57f5c",
+      "name": "linhas_centrais",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#d5b43c",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 68.7822,
+    "total_row_length_m": 443135.26,
+    "failure_percentage": 0.0
+  },
+  "bounds": [
+    -49.13829894312242,
+    -20.01083496672727,
+    -49.12754623086115,
+    -20.001862296173236
+  ],
+  "created_at": "2026-09-08T08:22:36.178664+00:00",
+  "plugin_version": "0.4.3",
+  "field": "GERAL",
+  "publication_slug": "agrop-15522-sem-nome-20260908",
+  "area_ha": 68.7822,
+  "layer_files": {
+    "orthomosaic": "orthomosaic/index.json",
+    "boundary": "boundary.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "multi",
+    "files": [
+      "orthomosaic/ortho_001.pmtiles",
+      "orthomosaic/ortho_002.pmtiles",
+      "orthomosaic/ortho_003.pmtiles",
+      "orthomosaic/ortho_004.pmtiles"
+    ]
+  }
+}
