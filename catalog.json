@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "id": "usina-cerradao-12203-ponte-nova-sem-nome-20260908-v2",
+      "slug": "usina-cerradao-12203-ponte-nova-sem-nome-20260908-v2",
+      "name": "12203 - Ponte Nova",
+      "company": "Usina Cerradão",
+      "farm": "12203 - Ponte Nova",
+      "field": "-",
+      "plot": "-",
+      "crop": "Cana",
+      "season": "26/27",
+      "survey_type": "Restituição de linhas",
+      "survey_date": "2026-09-08",
+      "area_ha": 33.3601,
+      "url": "projects/usina-cerradao-12203-ponte-nova-sem-nome-20260908-v2/"
+    },
+    {
       "id": "usina-cerradao-12203-ponte-nova-sem-nome-20260908-v1",
       "slug": "usina-cerradao-12203-ponte-nova-sem-nome-20260908-v1",
       "name": "12203 - Ponte Nova",
