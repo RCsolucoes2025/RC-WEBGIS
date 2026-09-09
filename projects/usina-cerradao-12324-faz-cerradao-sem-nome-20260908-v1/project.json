@@ -1,0 +1,151 @@
+{
+  "company": "Usina Cerradão",
+  "farm": "12324 - Faz Cerradão",
+  "field_code": "-",
+  "crop": "CANA",
+  "season": "26-27",
+  "survey_date": "2026-09-08",
+  "survey_type": "Restituição de linhas",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "usina-cerradao-12324-faz-cerradao-sem-nome-20260908-v1",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "12324___Mosaico_5810d34c_4655_4684_80d6_067f429e5fed",
+      "name": "12324 - Mosaico",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic/index.json",
+      "format": "raster_pmtiles_mosaic",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic/ortho_001.pmtiles",
+        "orthomosaic/ortho_002.pmtiles",
+        "orthomosaic/ortho_003.pmtiles",
+        "orthomosaic/ortho_004.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "talhoes_1a294d26_68c4_4973_ac34_c5fb75b9c342",
+      "name": "talhoes",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#000000",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "linhas_centrais_falhas_dadb5b5e_a3fe_47f4_b8b7_7c5c6635737a",
+      "name": "linhas_centrais_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "linhas_centrais_fc0140e8_f80a_4d94_87d0_23c077a8baf6",
+      "name": "linhas_centrais",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#fff023",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 95.4793,
+    "failure_count": 31565,
+    "failure_length_m": 45656.31,
+    "failure_mean_m": 1.45,
+    "failure_max_m": 61.36,
+    "failure_classes": {
+      "0,50–1,50 m": 24060,
+      "1,50–3,00 m": 5015,
+      "3,00–5,00 m": 1547,
+      ">= 5,00 m": 943,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 478.18,
+    "total_row_length_m": 625188.02,
+    "failure_percentage": 7.3
+  },
+  "bounds": [
+    -49.169988208477804,
+    -19.920423754461098,
+    -49.15370666453862,
+    -19.906959887036358
+  ],
+  "created_at": "2026-09-09T09:56:28.720695+00:00",
+  "plugin_version": "0.4.3",
+  "field": "GERAL",
+  "publication_slug": "usina-cerradao-12324-faz-cerradao-sem-nome-20260908",
+  "area_ha": 95.4793,
+  "layer_files": {
+    "orthomosaic": "orthomosaic/index.json",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "multi",
+    "files": [
+      "orthomosaic/ortho_001.pmtiles",
+      "orthomosaic/ortho_002.pmtiles",
+      "orthomosaic/ortho_003.pmtiles",
+      "orthomosaic/ortho_004.pmtiles"
+    ]
+  }
+}

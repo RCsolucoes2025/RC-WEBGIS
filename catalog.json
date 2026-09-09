@@ -16,6 +16,21 @@
       "url": "projects/usina-cerradao-13211-sitio-januaria-sem-nome-20260908-v1/"
     },
     {
+      "id": "usina-cerradao-12324-faz-cerradao-sem-nome-20260908-v1",
+      "slug": "usina-cerradao-12324-faz-cerradao-sem-nome-20260908-v1",
+      "name": "12324 - Faz Cerradão",
+      "company": "Usina Cerradão",
+      "farm": "12324 - Faz Cerradão",
+      "field": "-",
+      "plot": "-",
+      "crop": "CANA",
+      "season": "26-27",
+      "survey_type": "Restituição de linhas",
+      "survey_date": "2026-09-08",
+      "area_ha": 95.4793,
+      "url": "projects/usina-cerradao-12324-faz-cerradao-sem-nome-20260908-v1/"
+    },
+    {
       "id": "usina-cerradao-12203-ponte-nova-sem-nome-20260908-v2",
       "slug": "usina-cerradao-12203-ponte-nova-sem-nome-20260908-v2",
       "name": "12203 - Ponte Nova",
