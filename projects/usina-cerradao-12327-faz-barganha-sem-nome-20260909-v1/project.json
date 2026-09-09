@@ -1,0 +1,145 @@
+{
+  "company": "Usina Cerradão",
+  "farm": "12327 - Faz Barganha",
+  "field_code": "-",
+  "crop": "Cana",
+  "season": "26/27",
+  "survey_date": "2026-09-09",
+  "survey_type": "Restituição de linhas",
+  "technician": "Renan Candea",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "usina-cerradao-12327-faz-barganha-sem-nome-20260909-v1",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "Mosaico_12327__Faz_Barganha_1955ca36_c163_40e7_ba36_ba5ac2f8381b",
+      "name": "Mosaico 12327 -Faz Barganha",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "talhoes_8288af85_4ddf_40ef_b435_40144378506e",
+      "name": "talhoes",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#090101",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "linhas_centrais_falhas_db00abf9_4824_485e_a6b8_4ca66e0da2db",
+      "name": "linhas_centrais_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "linhas_centrais_d329250b_544f_49b0_b90f_582847fb4071",
+      "name": "linhas_centrais",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#d5b43c",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 19.5654,
+    "failure_count": 5529,
+    "failure_length_m": 5424.32,
+    "failure_mean_m": 0.98,
+    "failure_max_m": 28.72,
+    "failure_classes": {
+      "0,50–1,50 m": 4891,
+      "1,50–3,00 m": 541,
+      "3,00–5,00 m": 68,
+      ">= 5,00 m": 28,
+      "< 0,50 m": 1
+    },
+    "failure_m_per_ha": 277.24,
+    "total_row_length_m": 128464.25,
+    "failure_percentage": 4.22
+  },
+  "bounds": [
+    -49.03939093041475,
+    -19.87632197377446,
+    -49.034526452643185,
+    -19.869192151193598
+  ],
+  "created_at": "2026-09-09T14:26:16.673559+00:00",
+  "plugin_version": "0.4.3",
+  "field": "Vários",
+  "publication_slug": "usina-cerradao-12327-faz-barganha-sem-nome-20260909",
+  "area_ha": 19.5654,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}

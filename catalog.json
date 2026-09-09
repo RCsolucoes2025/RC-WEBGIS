@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "id": "usina-cerradao-12327-faz-barganha-sem-nome-20260909-v1",
+      "slug": "usina-cerradao-12327-faz-barganha-sem-nome-20260909-v1",
+      "name": "12327 - Faz Barganha",
+      "company": "Usina Cerradão",
+      "farm": "12327 - Faz Barganha",
+      "field": "-",
+      "plot": "-",
+      "crop": "Cana",
+      "season": "26/27",
+      "survey_type": "Restituição de linhas",
+      "survey_date": "2026-09-09",
+      "area_ha": 19.5654,
+      "url": "projects/usina-cerradao-12327-faz-barganha-sem-nome-20260909-v1/"
+    },
+    {
       "id": "usina-cerradao-13211-sitio-januaria-sem-nome-20260908-v1",
       "slug": "usina-cerradao-13211-sitio-januaria-sem-nome-20260908-v1",
       "name": "13211 - Sitio Januária",
