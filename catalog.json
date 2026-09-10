@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "id": "usina-cerradao-12319-ponte-nova-sem-nome-20260910-v1",
+      "slug": "usina-cerradao-12319-ponte-nova-sem-nome-20260910-v1",
+      "name": "12319 - Ponte Nova",
+      "company": "Usina Cerradão",
+      "farm": "12319 - Ponte Nova",
+      "field": "-",
+      "plot": "-",
+      "crop": "Cana",
+      "season": "26/27",
+      "survey_type": "Restituição de linhas",
+      "survey_date": "2026-09-10",
+      "area_ha": 252.825,
+      "url": "projects/usina-cerradao-12319-ponte-nova-sem-nome-20260910-v1/"
+    },
+    {
       "id": "usina-cerradao-12327-faz-barganha-sem-nome-20260909-v1",
       "slug": "usina-cerradao-12327-faz-barganha-sem-nome-20260909-v1",
       "name": "12327 - Faz Barganha",

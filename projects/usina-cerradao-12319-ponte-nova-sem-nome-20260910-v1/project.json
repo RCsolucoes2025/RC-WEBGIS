@@ -1,0 +1,145 @@
+{
+  "company": "Usina Cerradão",
+  "farm": "12319 - Ponte Nova",
+  "field_code": "-",
+  "crop": "Cana",
+  "season": "26/27",
+  "survey_date": "2026-09-10",
+  "survey_type": "Restituição de linhas",
+  "technician": "Renan Candea",
+  "notes": "",
+  "raster_profile": "small",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "usina-cerradao-12319-ponte-nova-sem-nome-20260910-v1",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "Mosaico_12319__Ponte_Nova_e5ee8e0b_e63e_4aae_b560_ea90a31b19aa",
+      "name": "Mosaico 12319 -Ponte Nova",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "talhoes_16799884_0e67_45dd_aba3_49f922713aed",
+      "name": "talhoes",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#ffda0a",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "linhas_centrais_falhas_9580814b_ef16_40a7_8cc3_ffce42ad85d4",
+      "name": "linhas_centrais_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "linhas_centrais_100049e3_b8e9_47d8_a4c9_cfbd812ff19c",
+      "name": "linhas_centrais",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#ffda0a",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 252.825,
+    "failure_count": 57722,
+    "failure_length_m": 63006.71,
+    "failure_mean_m": 1.09,
+    "failure_max_m": 81.06,
+    "failure_classes": {
+      "0,50–1,50 m": 49318,
+      "1,50–3,00 m": 6692,
+      "3,00–5,00 m": 1162,
+      ">= 5,00 m": 550,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 249.21,
+    "total_row_length_m": 1650253.24,
+    "failure_percentage": 3.82
+  },
+  "bounds": [
+    -49.04176156151778,
+    -19.886219919446507,
+    -49.01726581879677,
+    -19.863095210365895
+  ],
+  "created_at": "2026-09-10T12:11:13.462172+00:00",
+  "plugin_version": "0.4.3",
+  "field": "Vários",
+  "publication_slug": "usina-cerradao-12319-ponte-nova-sem-nome-20260910",
+  "area_ha": 252.825,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}
