@@ -1,0 +1,145 @@
+{
+  "company": "Usina Cerradão",
+  "farm": "32182 - Faz Nova",
+  "field_code": "-",
+  "crop": "Cana",
+  "season": "26-27",
+  "survey_date": "2026-09-13",
+  "survey_type": "Restituição de linhas",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "usina-cerradao-32182-faz-nova-sem-nome-20260913-v1",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "32182___Faz_Nova_0d3ff1c0_0f83_430f_aaca_7f8202cce934",
+      "name": "32182 - Faz Nova",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "talhoes_0cd48073_4608_4f17_9f3b_3f3570a24955",
+      "name": "talhoes",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#fff023",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "linhas_centrais_falhas_02ae362f_48d0_4eeb_b347_6e6ac91a8784",
+      "name": "linhas centrais_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "linhas_centrais_4ab8cff5_fa23_41ca_ac34_9792a6a45aa9",
+      "name": "linhas centrais",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#fff023",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 67.9624,
+    "failure_count": 54288,
+    "failure_length_m": 149016.91,
+    "failure_mean_m": 2.74,
+    "failure_max_m": 80.79,
+    "failure_classes": {
+      "0,50–1,50 m": 26293,
+      "1,50–3,00 m": 13362,
+      "3,00–5,00 m": 7072,
+      ">= 5,00 m": 7561,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 2192.64,
+    "total_row_length_m": 446179.03,
+    "failure_percentage": 33.4
+  },
+  "bounds": [
+    -49.11408767297569,
+    -19.656692830281152,
+    -49.100331885465614,
+    -19.646821335546967
+  ],
+  "created_at": "2026-09-13T17:05:42.261608+00:00",
+  "plugin_version": "0.4.3",
+  "field": "Vários",
+  "publication_slug": "usina-cerradao-32182-faz-nova-sem-nome-20260913",
+  "area_ha": 67.9624,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}

@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "id": "usina-cerradao-32182-faz-nova-sem-nome-20260913-v1",
+      "slug": "usina-cerradao-32182-faz-nova-sem-nome-20260913-v1",
+      "name": "32182 - Faz Nova",
+      "company": "Usina Cerradão",
+      "farm": "32182 - Faz Nova",
+      "field": "-",
+      "plot": "-",
+      "crop": "Cana",
+      "season": "26-27",
+      "survey_type": "Restituição de linhas",
+      "survey_date": "2026-09-13",
+      "area_ha": 67.9624,
+      "url": "projects/usina-cerradao-32182-faz-nova-sem-nome-20260913-v1/"
+    },
+    {
       "id": "usina-cerradao-12319-ponte-nova-sem-nome-20260910-v1",
       "slug": "usina-cerradao-12319-ponte-nova-sem-nome-20260910-v1",
       "name": "12319 - Ponte Nova",
