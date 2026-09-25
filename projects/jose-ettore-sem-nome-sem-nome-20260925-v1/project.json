@@ -1,0 +1,145 @@
+{
+  "company": "José Ettore",
+  "farm": "-",
+  "field_code": "-",
+  "crop": "Cana de Açucar",
+  "season": "26-27",
+  "survey_date": "2026-09-25",
+  "survey_type": "Restituição de linhas",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "jose-ettore-sem-nome-sem-nome-20260925-v1",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "ettore_cc40c17a_d019_4b9e_976d_0884d419c43f",
+      "name": "José Ettore",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "talhoes_c367146b_2230_40c4_b8f1_6f2bcb4efa9e",
+      "name": "talhoes",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#e41a1c",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "linhas_centrais_falhas_4e45db9c_a2dd_418b_a445_06b4e59273e3",
+      "name": "linhas_centrais_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "linhas_centrais_dc59e746_e0c1_4493_8084_53c9338b7806",
+      "name": "linhas_centrais",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#e5b636",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 18.9879,
+    "failure_count": 1328,
+    "failure_length_m": 1885.22,
+    "failure_mean_m": 1.42,
+    "failure_max_m": 13.75,
+    "failure_classes": {
+      "0,50–1,50 m": 934,
+      "1,50–3,00 m": 279,
+      "3,00–5,00 m": 91,
+      ">= 5,00 m": 24,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 99.29,
+    "total_row_length_m": 122126.61,
+    "failure_percentage": 1.54
+  },
+  "bounds": [
+    -48.66365200143517,
+    -20.92720002493025,
+    -48.65732377678737,
+    -20.92166174835215
+  ],
+  "created_at": "2026-09-25T17:37:57.197557+00:00",
+  "plugin_version": "0.4.3",
+  "field": "Unico",
+  "publication_slug": "jose-ettore-sem-nome-sem-nome-20260925",
+  "area_ha": 18.9879,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}

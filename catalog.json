@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "id": "jose-ettore-sem-nome-sem-nome-20260925-v1",
+      "slug": "jose-ettore-sem-nome-sem-nome-20260925-v1",
+      "name": "-",
+      "company": "José Ettore",
+      "farm": "-",
+      "field": "-",
+      "plot": "-",
+      "crop": "Cana de Açucar",
+      "season": "26-27",
+      "survey_type": "Restituição de linhas",
+      "survey_date": "2026-09-25",
+      "area_ha": 18.9879,
+      "url": "projects/jose-ettore-sem-nome-sem-nome-20260925-v1/"
+    },
+    {
       "id": "usina-cerradao-32182-faz-nova-sem-nome-20260913-v1",
       "slug": "usina-cerradao-32182-faz-nova-sem-nome-20260913-v1",
       "name": "32182 - Faz Nova",
