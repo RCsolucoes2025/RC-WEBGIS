@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "id": "usina-cerradao-12122-novo-sem-nome-20261006-v1",
+      "slug": "usina-cerradao-12122-novo-sem-nome-20261006-v1",
+      "name": "12122 - Novo",
+      "company": "Usina Cerradão",
+      "farm": "12122 - Novo",
+      "field": "-",
+      "plot": "-",
+      "crop": "Cana de Açucar",
+      "season": "26-27",
+      "survey_type": "Falhas de plantio",
+      "survey_date": "2026-10-06",
+      "area_ha": 68.8585,
+      "url": "projects/usina-cerradao-12122-novo-sem-nome-20261006-v1/"
+    },
+    {
       "id": "jose-ettore-sem-nome-sem-nome-20260925-v1",
       "slug": "jose-ettore-sem-nome-sem-nome-20260925-v1",
       "name": "-",

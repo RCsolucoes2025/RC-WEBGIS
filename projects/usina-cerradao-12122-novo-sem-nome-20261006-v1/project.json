@@ -1,0 +1,145 @@
+{
+  "company": "Usina Cerradão",
+  "farm": "12122 - Novo",
+  "field_code": "-",
+  "crop": "Cana de Açucar",
+  "season": "26-27",
+  "survey_date": "2026-10-06",
+  "survey_type": "Falhas de plantio",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "usina-cerradao-12122-novo-sem-nome-20261006-v1",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "12122___novo_f4fe2680_3516_4944_be68_3a70858461f3",
+      "name": "12122 - novo",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "talhoes_b281622f_ef1a_45f0_8e40_89a3d73b0c43",
+      "name": "talhoes",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#a47158",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "linhas_centrais_falhas_89921ac5_abd0_4ffa_916f_9041e0519316",
+      "name": "linhas_centrais_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "linhas_centrais_b8fee399_49f0_4e95_9b5f_bd5d32289889",
+      "name": "linhas_centrais",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#729b6f",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 68.8585,
+    "failure_count": 37163,
+    "failure_length_m": 55985.2,
+    "failure_mean_m": 1.51,
+    "failure_max_m": 53.44,
+    "failure_classes": {
+      "0,50–1,50 m": 25716,
+      "1,50–3,00 m": 8343,
+      "3,00–5,00 m": 2122,
+      ">= 5,00 m": 982,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 813.05,
+    "total_row_length_m": 443135.26,
+    "failure_percentage": 12.63
+  },
+  "bounds": [
+    -49.13829182128641,
+    -20.010904780075126,
+    -49.127520895271466,
+    -20.001819069340602
+  ],
+  "created_at": "2026-10-07T12:32:58.087466+00:00",
+  "plugin_version": "0.4.3",
+  "field": "-",
+  "publication_slug": "usina-cerradao-12122-novo-sem-nome-20261006",
+  "area_ha": 68.8585,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}
