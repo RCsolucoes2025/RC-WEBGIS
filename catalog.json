@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "id": "us-cerradao-32149-daninhas-20261015-v1",
+      "slug": "us-cerradao-32149-daninhas-20261015-v1",
+      "name": "32149",
+      "company": "Us Cerradão",
+      "farm": "32149",
+      "field": "-",
+      "plot": "-",
+      "crop": "Cana de Açucar",
+      "season": "26-27",
+      "survey_type": "Levantamento de daninhas",
+      "survey_date": "2026-10-15",
+      "area_ha": 139.7615,
+      "url": "projects/us-cerradao-32149-daninhas-20261015-v1/"
+    },
+    {
       "id": "us-cerradao-daninhas-20261015-v1",
       "slug": "us-cerradao-daninhas-20261015-v1",
       "name": "Us Cerradão",
