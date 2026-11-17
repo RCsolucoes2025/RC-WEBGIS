@@ -1,0 +1,145 @@
+{
+  "company": "Us Ibéria",
+  "farm": "9005 - Cruz da Malta",
+  "field_code": "-",
+  "crop": "Cana de Açucar",
+  "season": "26-27",
+  "survey_date": "2026-11-17",
+  "survey_type": "Restituição de linhas",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "small",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "us-iberia-9005-cruz-da-malta-sem-nome-20261117-v1",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "Area_1_5d8583dd_2d20_4e6c_b9ab_ee3548115128",
+      "name": "Area 1",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "talhoes_52eac762_c791_40b5_8288_dde9b1a5e074",
+      "name": "talhoes",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#090101",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "Area_1_falhas_ecd468d3_87fa_4ca8_bfc5_2a9b65b7d81a",
+      "name": "Area 1_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "linhas_centrais_48582c37_138a_4800_a6b8_70aef8e29850",
+      "name": "linhas centrais",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#16ff26",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 129.3235,
+    "failure_count": 10573,
+    "failure_length_m": 32908.45,
+    "failure_mean_m": 3.11,
+    "failure_max_m": 132.37,
+    "failure_classes": {
+      "0,50–1,50 m": 6017,
+      "1,50–3,00 m": 2180,
+      "3,00–5,00 m": 983,
+      ">= 5,00 m": 1393,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 254.47,
+    "total_row_length_m": 851536.25,
+    "failure_percentage": 3.86
+  },
+  "bounds": [
+    -50.61807211925806,
+    -22.031276826581983,
+    -50.59664302204028,
+    -22.015829042696943
+  ],
+  "created_at": "2026-11-17T18:21:24.422161+00:00",
+  "plugin_version": "0.4.4",
+  "field": "-",
+  "publication_slug": "us-iberia-9005-cruz-da-malta-sem-nome-20261117",
+  "area_ha": 129.3235,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}
