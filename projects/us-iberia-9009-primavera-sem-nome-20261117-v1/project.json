@@ -1,0 +1,145 @@
+{
+  "company": "Us Ibéria",
+  "farm": "9009 - Primavera",
+  "field_code": "-",
+  "crop": "Cana de Açucar",
+  "season": "26-27",
+  "survey_date": "2026-11-17",
+  "survey_type": "Restituição de linhas",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "small",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "us-iberia-9009-primavera-sem-nome-20261117-v1",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "Area_2_a40b62d7_2138_405c_aecf_2f9654a88631",
+      "name": "Area 2",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "9009_e7b81d27_d2cb_4437_be84_fd48c59dfcac",
+      "name": "9009",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#090101",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "Area_2_falhas_e4f8b468_0ee2_4f3a_a16b_28cce853304b",
+      "name": "Area 2_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "linhas_certas_7f80baac_28b5_4287_875a_020bc70eb8f1",
+      "name": "linhas certas",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#16ff26",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 71.4201,
+    "failure_count": 3401,
+    "failure_length_m": 4680.75,
+    "failure_mean_m": 1.38,
+    "failure_max_m": 26.33,
+    "failure_classes": {
+      "0,50–1,50 m": 2594,
+      "1,50–3,00 m": 568,
+      "3,00–5,00 m": 143,
+      ">= 5,00 m": 96,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 65.54,
+    "total_row_length_m": 449538.53,
+    "failure_percentage": 1.04
+  },
+  "bounds": [
+    -50.37498503457785,
+    -22.082689294231166,
+    -50.36258061582186,
+    -22.07051262558962
+  ],
+  "created_at": "2026-11-17T18:26:21.875000+00:00",
+  "plugin_version": "0.4.4",
+  "field": "-",
+  "publication_slug": "us-iberia-9009-primavera-sem-nome-20261117",
+  "area_ha": 71.4201,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}

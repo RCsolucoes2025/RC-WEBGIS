@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "id": "us-iberia-9009-primavera-sem-nome-20261117-v1",
+      "slug": "us-iberia-9009-primavera-sem-nome-20261117-v1",
+      "name": "9009 - Primavera",
+      "company": "Us Ibéria",
+      "farm": "9009 - Primavera",
+      "field": "-",
+      "plot": "-",
+      "crop": "Cana de Açucar",
+      "season": "26-27",
+      "survey_type": "Restituição de linhas",
+      "survey_date": "2026-11-17",
+      "area_ha": 71.4201,
+      "url": "projects/us-iberia-9009-primavera-sem-nome-20261117-v1/"
+    },
+    {
       "id": "us-iberia-9005-cruz-da-malta-sem-nome-20261117-v1",
       "slug": "us-iberia-9005-cruz-da-malta-sem-nome-20261117-v1",
       "name": "9005 - Cruz da Malta",
